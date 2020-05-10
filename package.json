@@ -1,0 +1,24 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "A content management system that can view and manage the departments, roles, and employees in my company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyhotant/Employee_Tracker.git"
+  },
+  "author": "Lisheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyhotant/Employee_Tracker/issues"
+  },
+  "homepage": "https://github.com/tonyhotant/Employee_Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  }
+}
