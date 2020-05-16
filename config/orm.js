@@ -10,7 +10,17 @@ const orm = {
         });
     },
 
+
     delete: function (tableName, tableCol) {
-        const queryString = ""
-    }
+        const queryString = "DELETE FROM ?? WHERE ??";
+        connection.query(queryString, [tableName, tableCol], function (err, result) {
+            if (err) throw err;
+            console.table(result);
+        });
+    },
+
 }
+
+
+
+module.exports = orm;
